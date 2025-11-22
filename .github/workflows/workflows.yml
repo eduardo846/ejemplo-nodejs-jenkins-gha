@@ -16,8 +16,9 @@ jobs:
       #Step1 : Checkout codigo
       - name: Checkout Repository
         uses: actions/checkout@v5
+
       - name: Setup Node.js
-        uses: actions/setups-node@v6
+        uses: actions/setup-node@v6
         with:
           node-version: 24
 
